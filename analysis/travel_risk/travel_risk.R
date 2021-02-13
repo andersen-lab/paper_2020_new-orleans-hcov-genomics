@@ -318,6 +318,7 @@ us_state_mobility %>%
 
 ## Plot map for export risk from NOLA. Export risk into all other states as % of risk coming into ech individual state
 ## us_state_mobility <- read_csv("../../export_risk/us_state_travel_matrix.csv")
+## Download shapefile from https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
 us_admin1 <- read_sf("./data/geo/cb_2018_us_state_5m/cb_2018_us_state_5m.shp")
 
 export_risk_nola <- us_state_mobility %>%
@@ -413,6 +414,7 @@ export_risk_nola %>%
     })
 
 ## Plot within Louisiana
+## Download shapefile from https://catalog.data.gov/dataset/tiger-line-shapefile-2019-nation-u-s-current-county-and-equivalent-national-shapefile
 us_admin_2 <- read_sf("./data/geo/tl_2019_us_county.shp")
 la_admin_2 <- us_admin_2 %>%
     filter(STATEFP == "22")
