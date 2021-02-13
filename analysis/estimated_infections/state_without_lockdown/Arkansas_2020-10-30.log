@@ -1,0 +1,132 @@
+
+
+SAMPLINGSAMPLING FOR MODEL ' FOR MODEL 'epidemia_baseepidemia_base' NOW (CHAIN ' NOW (CHAIN 21).
+).
+
+SAMPLING FOR MODEL 'epidemia_base' NOW (CHAIN 3).
+Chain Chain 12: : Rejecting initial value:Rejecting initial value:
+
+Chain Chain 12: :   Error evaluating the log probability at the initial value.  Error evaluating the log probability at the initial value.
+
+Chain Chain 12: : Exception: neg_binomial_2_lpmf: Location parameter[1] is -9.0505e-14, but must be > 0!  (in 'model_epidemia_base' at line 108)
+Exception: neg_binomial_2_lpmf: Location parameter[1] is -2.1141e-16, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+
+Chain 2: Rejecting initial value:
+Chain 2:   Error evaluating the log probability at the initial value.
+Chain 2: Exception: neg_binomial_2_lpmf: Location parameter[1] is -2.15444e-13, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+Chain 1: 
+Chain Chain 21: : Rejecting initial value:Gradient evaluation took 0.000821 seconds
+
+Chain Chain 21: :   Error evaluating the log probability at the initial value.1000 transitions using 10 leapfrog steps per transition would take 8.21 seconds.
+
+Chain Chain 21: : Exception: neg_binomial_2_lpmf: Location parameter[1] is -1.39659e-13, but must be > 0!  (in 'model_epidemia_base' at line 108)
+Adjust your expectations accordingly!
+
+Chain 1: 
+Chain 1: 
+Chain 3: 
+Chain 3: Gradient evaluation took 0.000817 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 8.17 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 2: Rejecting initial value:
+Chain 2:   Error evaluating the log probability at the initial value.
+Chain 2: Exception: neg_binomial_2_lpmf: Location parameter[1] is -1.50101e-14, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+Chain 2: Rejecting initial value:
+Chain 2:   Error evaluating the log probability at the initial value.
+Chain 2: Exception: neg_binomial_2_lpmf: Location parameter[1] is -1.09334e-12, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+Chain 2: Rejecting initial value:
+Chain 2:   Error evaluating the log probability at the initial value.
+Chain 2: Exception: neg_binomial_2_lpmf: Location parameter[1] is -1.19327e-13, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+Chain 2: Rejecting initial value:
+Chain 2:   Error evaluating the log probability at the initial value.
+Chain 2: Exception: neg_binomial_2_lpmf: Location parameter[1] is -6.13907e-13, but must be > 0!  (in 'model_epidemia_base' at line 108)
+
+Chain 2: 
+Chain 2: Gradient evaluation took 0.000695 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 6.95 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+
+SAMPLING FOR MODEL 'epidemia_base' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 0.000844 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 8.44 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 1: Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain 3: Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain 2: Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain 4: Iteration:    1 / 4000 [  0%]  (Warmup)
+Chain 3: Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain 2: Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain 3: Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain 2: Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain 2: Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain 3: Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain 3: Iteration: 1600 / 4000 [ 40%]  (Warmup)
+Chain 2: Iteration: 1600 / 4000 [ 40%]  (Warmup)
+Chain 3: Iteration: 2000 / 4000 [ 50%]  (Warmup)
+Chain 3: Iteration: 2001 / 4000 [ 50%]  (Sampling)
+Chain 2: Iteration: 2000 / 4000 [ 50%]  (Warmup)
+Chain 2: Iteration: 2001 / 4000 [ 50%]  (Sampling)
+Chain 3: Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain 2: Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain 2: Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain 3: Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain 2: Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain 3: Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain 2: Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain 3: Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain 2: Iteration: 4000 / 4000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 37.3481 seconds (Warm-up)
+Chain 2:                20.6808 seconds (Sampling)
+Chain 2:                58.0289 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 4000 / 4000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 37.2536 seconds (Warm-up)
+Chain 3:                22.0229 seconds (Sampling)
+Chain 3:                59.2764 seconds (Total)
+Chain 3: 
+Chain 1: Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain 4: Iteration:  400 / 4000 [ 10%]  (Warmup)
+Chain 4: Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain 4: Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain 4: Iteration: 1600 / 4000 [ 40%]  (Warmup)
+Chain 4: Iteration: 2000 / 4000 [ 50%]  (Warmup)
+Chain 4: Iteration: 2001 / 4000 [ 50%]  (Sampling)
+Chain 4: Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain 4: Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain 4: Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain 4: Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain 4: Iteration: 4000 / 4000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 99.0511 seconds (Warm-up)
+Chain 4:                22.946 seconds (Sampling)
+Chain 4:                121.997 seconds (Total)
+Chain 4: 
+Chain 1: Iteration:  800 / 4000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1200 / 4000 [ 30%]  (Warmup)
+Chain 1: Iteration: 1600 / 4000 [ 40%]  (Warmup)
+Chain 1: Iteration: 2000 / 4000 [ 50%]  (Warmup)
+Chain 1: Iteration: 2001 / 4000 [ 50%]  (Sampling)
+Chain 1: Iteration: 2400 / 4000 [ 60%]  (Sampling)
+Chain 1: Iteration: 2800 / 4000 [ 70%]  (Sampling)
+Chain 1: Iteration: 3200 / 4000 [ 80%]  (Sampling)
+Chain 1: Iteration: 3600 / 4000 [ 90%]  (Sampling)
+Chain 1: Iteration: 4000 / 4000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 211.339 seconds (Warm-up)
+Chain 1:                23.4522 seconds (Sampling)
+Chain 1:                234.791 seconds (Total)
+Chain 1: 
